@@ -2,25 +2,11 @@
 version: 2
 
 models:
-    - name: my_first_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
-
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
     - name: main_table
       description: "Main table"
-    - name: highest_death_per_region
-      description: "highest death per region model"
+    - name: region_per_highest_deaths
+      description: "regions with more deaths model"
+    - name: active_cases
+      description: "total active cases per day model"
+
 
