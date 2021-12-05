@@ -6,9 +6,4 @@ with source_data as (
 
 )
 
-final as(
-select *
-from source_data
-)
-
-select * from final
+select * from source_data
