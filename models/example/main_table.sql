@@ -11,3 +11,4 @@ select *
 from source_data
 )
 
+select * from final
