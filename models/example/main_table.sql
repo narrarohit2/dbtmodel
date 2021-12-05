@@ -6,6 +6,8 @@ with source_data as (
 
 )
 
+final as(
 select *
 from source_data
+)
 
