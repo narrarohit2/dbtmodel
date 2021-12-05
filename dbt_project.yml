@@ -36,4 +36,5 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: view
+  database: INTERVIEW_DB
   schema: PLAYGROUND_ROHIT_NARRA
