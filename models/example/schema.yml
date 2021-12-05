@@ -19,3 +19,5 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: main_table
+      description: "Main table"
