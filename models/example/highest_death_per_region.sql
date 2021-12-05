@@ -2,7 +2,7 @@
 
 with source_data as (
 
-   select DATE,LOCATION from MSIN_TABLE where TOTAL_DEATHS>50
+   select DATE,LOCATION from MAIN_TABLE where TOTAL_DEATHS>50
 
 )
 
