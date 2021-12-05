@@ -1,4 +1,5 @@
 {{ config(materialized='table') }}
+{{ config(schema='PLAYGROUND_ROHIT_NARRA') }}
 
 with source_data as (
 
